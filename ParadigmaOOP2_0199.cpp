@@ -33,3 +33,20 @@ public:
 
 	}
 };
+int main()
+{
+	seseorang* objek;
+	joko a;
+	lia b;
+	
+	objek = &a;
+	objek->pesan();
+	objek = &b;
+	objek->pesan();
+
+	//akses method pesan() dari class seseorang
+    // a.sesorang::pesam();
+
+	return 0;
+
+}
